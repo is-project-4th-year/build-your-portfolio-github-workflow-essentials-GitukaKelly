@@ -1,4 +1,4 @@
-
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -6,30 +6,123 @@
 }
 
 body {
-  background: linear-gradient(120deg, #00bcd4, #8bc34a);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  min-height: 100vh;
+  background: linear-gradient(120deg, #00bcd4, #8bc34a);
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem 2rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.container {
-  text-align: center;
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00bcd4;
 }
 
-.profile-card {
-  background-color: #ffffffdd;
-  padding: 2rem;
-  border-radius: 20px;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-  width: 300px;
+.logo .highlight {
+  color: #8bc34a;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: transform 0.3s ease, color 0.3s ease;
+  position: relative;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #00bcd4;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.nav-links a:hover {
+  color: #8bc34a;
+  transform: scale(1.05);
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 50px 50px; /* account for navbar */
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.hero-image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid #00bcd4;
+  object-fit: cover;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
 }
 
-.profile-card:hover {
+.hero-image img:hover {
   transform: scale(1.05);
 }
+
+.hero-text {
+  max-width: 600px;
+  color: #333;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+}
+
 
 .profile-img {
   width: 120px;
@@ -50,10 +143,11 @@ body {
   color: #555;
   font-style: italic;
 }
+
 .description {
   margin-top: 1rem;
   color: #444;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.6;
   padding: 0 10px;
 }
