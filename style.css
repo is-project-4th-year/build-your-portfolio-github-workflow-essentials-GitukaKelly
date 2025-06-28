@@ -184,13 +184,96 @@ body {
   animation: fadeInUp 1s ease-in-out;
 }
 
-/* ✨ Simple Fade-in Animation */
-@keyframes fadeInUp {
-  from {
+.education-section {
+  padding: 80px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.timeline {
+  position: relative;
+  margin: 40px auto;
+  max-width: 800px;
+  padding-left: 20px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(to bottom, #00bcd4, #8bc34a);
+}
+
+.timeline-item {
+  margin-bottom: 40px;
+  position: relative;
+  animation: slideUpFade 1s ease forwards;
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.timeline-item:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.timeline-content {
+  background: #f5f5f5;
+  padding: 1.2rem 2rem;
+  margin-left: 60px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.timeline-content::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  width: 15px;
+  height: 15px;
+  background-color: #00bcd4;
+  border: 3px solid white;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-content h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.timeline-content p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.timeline-date {
+  font-size: 0.85rem;
+  color: #888;
+  font-style: italic;
+  margin-top: 8px;
+  display: block;
+}
+.grade {
+  display: block;
+  font-weight: bold;
+  color: #00bcd4;
+  margin-top: 6px;
+}
+
+/* 🔄 Slide-in Animation */
+@keyframes slideUpFade {
+  0% {
     opacity: 0;
     transform: translateY(40px);
   }
-  to {
+  100% {
     opacity: 1;
     transform: translateY(0);
   }
