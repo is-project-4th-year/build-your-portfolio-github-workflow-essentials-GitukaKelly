@@ -54,29 +54,29 @@ Impact 💡: I learned how to resolve conflicts manually and commit the resolved
 
 I used milestones to group related issues for each major section of my portfolio. This helped me break down the work and stay on track.Below is an example of of the issues under the milestone for Developing the about page for Kelly's personal portfolio
 
-![Milestones and Issues](assests/milestones.png)
+![Milestones and Issues](assets/milestones.png)
 
 
 ### B. Project Board
 
 I created a GitHub Project Board to visually track progress during development. Tasks were moved across columns — "To Do", "In Progress", and "Done" — to help me prioritize and stay focused.
 
-![Project Board](assests/projectboard.png)
+![Project Board](assets/projectboard.png)
 
 ### C. Branching
 
 To work on different parts of my portfolio independently, I created multiple branches. This ensured I could test features without affecting the main user experience.
 
-![Branching](assests/branching.png)
+![Branching](assets/branching.png)
 
 ### D. Pull Requests
 
 Here's a screenshot of a pull request I made to merge my past projects branch to the services section of my portfolio.
 
-![Pull request](assests/pullrequest.png)
+![Pull request](assets/pullrequest.png)
 
 ### E. Merge Conflict Resolution
 
 While merging two branches, I intentionally created a merge conflict in the assignment.md file. I resolved the conflict manually in VS Code and committed the changes.
 
-![Merge Conflict ](assests/mergeconflict.png)
+![Merge Conflict ](assets/mergeconflict.png)
