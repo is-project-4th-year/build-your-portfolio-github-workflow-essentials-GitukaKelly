@@ -77,6 +77,29 @@ body {
   transform: scale(1.05);
 }
 
+/* Ensure buttons inside nav align like links */
+.nav-links li {
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #333;
+  transition: transform 0.2s ease;
+  padding: 0;
+  margin: 0;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+  color: #8bc34a;
+}
+
+
 .hero-section {
   display: flex;
   flex-direction: row;
