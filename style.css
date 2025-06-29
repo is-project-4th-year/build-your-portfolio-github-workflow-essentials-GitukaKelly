@@ -599,4 +599,135 @@ body {
     flex: 0 0 calc(33.333% - 2rem); /* 3 items per row with gap */
   }
 }
+/* Toggle Button Styling */
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover {
+  transform: rotate(20deg) scale(1.1);
+}
+
+/* === 🌙 DARK THEME === */
+body.dark {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+body.dark .navbar {
+  background: rgba(20, 20, 20, 0.95);
+}
+
+body.dark .nav-links a {
+  color: #e0e0e0;
+}
+
+body.dark .nav-links a:hover {
+  color: #8bc34a;
+}
+
+body.dark .hero-text,
+body.dark .about-intro,
+body.dark .contact-text {
+  color: #f9f8f8;
+}
+/* WHO AM I */
+body.dark .about-section {
+  background-color: #1a1a1a;
+}
+
+body.dark .about-intro {
+  color: #e0e0e0;
+}
+
+/* CERTIFICATES & ACHIEVEMENTS */
+body.dark .certificates-section {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+body.dark .cert-card {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+body.dark .cert-card h3 {
+  color: #00bcd4;
+}
+
+body.dark .cert-card p {
+  color: #ccc;
+}
+
+body.dark .section-title {
+  color: #00bcd4;
+}
+
+body.dark .timeline-content,
+body.dark .cert-card,
+body.dark .skill-card,
+body.dark .service-card,
+body.dark .project-card {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+body.dark .timeline-content h3,
+body.dark .cert-card h3,
+body.dark .project-card h3,
+body.dark .service-card h3 {
+  color: #00bcd4;
+}
+
+body.dark .timeline-content p,
+body.dark .cert-card p,
+body.dark .project-card p,
+body.dark .service-card p {
+  color: #ccc;
+}
+
+body.dark .cert-link,
+body.dark .project-link,
+body.dark .contact-button {
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+body.dark .cert-link:hover,
+body.dark .project-link:hover,
+body.dark .contact-button:hover {
+  background-color: #0097a7;
+}
+
+body.dark .skills-section,
+body.dark .education-section,
+body.dark .services-section,
+body.dark .projects-section,
+body.dark .contact-section {
+  background-color: #1a1a1a;
+}
+
+body.dark .section-title::after {
+  background-color: #8bc34a;
+}
+
+body.dark .footer {
+  background: #111;
+  color: #aaa;
+}
+
+body.dark .footer-icons a i {
+  color: #ccc;
+}
+
+body.dark .footer-icons a:hover i {
+  color: #8bc34a;
+}
 

@@ -18,6 +18,9 @@
         <li><a href="#about">About</a></li> 
         <li><a href="#services">Services</a></li>
         <li><a href="#contact">Contact</a></li>
+        <!-- Dark Mode Toggle -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+ 
       </ul>
     </div>
   </nav>
@@ -234,5 +237,25 @@
     </div>
   </div>
 </footer>
+
+<script>
+  const toggleButton = document.getElementById('theme-toggle');
+  const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+
+  // On page load, set theme based on preference or saved value
+  const currentTheme = localStorage.getItem('theme');
+  if (currentTheme === 'dark' || (prefersDarkScheme.matches && !currentTheme)) {
+    document.body.classList.add('dark');
+    toggleButton.textContent = '☀️';
+  }
+
+  toggleButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+    const isDark = document.body.classList.contains('dark');
+    toggleButton.textContent = isDark ? '☀️' : '🌙';
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  });
+</script>
+
 </body>
 </html>
