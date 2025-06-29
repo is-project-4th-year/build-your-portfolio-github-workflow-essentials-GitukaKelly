@@ -544,12 +544,38 @@ body {
   background-color: #0056b3;
 }
 
-/* 🔻 Footer Styling */
 .footer {
-  background-color: #111;
-  color: #ddd;
+  background-color: linear-gradient(120deg, #00bcd4, #8bc34a);
+  color: #121212;
+  padding: 30px 0;
   text-align: center;
-  padding: 20px 0;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  position: relative;
+  z-index: 1;
 }
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-icons a i {
+  font-size: 24px;
+  color: #0f0101;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-icons a:hover i {
+  color: #0e67ec;
+  transform: scale(1.2);
+}
+
 
