@@ -2,7 +2,7 @@
 
 ## 1. Student Details
 
-- **Full Name**: Gituka Kelly Njeri
+- **Full Name**: Kelly Njeri Gituka
 - **Admission Number**: 152133
 - **GitHub Username**: @GitukaKelly
 - **Email**: kelly.gituka@strathmore.edu
@@ -15,37 +15,39 @@
 ## 3. Learnings from the Git Crash Program
 
 **🧠 What I Thought I'd Learn vs What I Actually Learned**
+
+
 **1. Concept: Branching**
 
-Expectation 🙃 : I thought branching was only for teams working on big projects and wouldn’t be useful in solo work.
+Expectation: I thought branching was only for teams working on big projects and wouldn’t be useful in solo work.
 
-Reality 😅: Turns out branches are super handy for testing different ideas without messing up my main progress.
+Reality: Turns out branches are super handy for testing different ideas without messing up my main progress.
 
-Impact 💡: I used branches to work on my "About Me" and "Projects" sections separately and merged them after testing.
+Impact : I used branches to work on my "About " and "Projects" sections separately and merged them after testing.
 
 **2. Concept: Issues and Milestones**
 
-Expectation 🙃 : I expected issues and milestones to be overkill for small projects.
+Expectation  : I expected issues and milestones to be overkill for small projects.
 
-Reality 😅: They actually helped me plan and track progress in my portfolio project.
+Reality : They actually helped me plan and track progress in my portfolio project.
 
-Impact 💡: I created an "Add Skills Section" milestone with linked issues, which helped keep things organized.
+Impact : I created an "Add Skills Section" milestone with linked issues, which helped keep things organized.
 
 **3. Concept: Pull Requests**
 
-Expectation 🙃 : I thought pull requests were only for team code reviews.
+Expectation : I thought pull requests were only for team code reviews.
 
-Reality 😅: Even solo devs can use PRs to track changes and experiment safely.
+Reality : Even solo devs can use PRs to track changes and experiment safely.
 
-Impact 💡: I created a PR for my updated contact section and reviewed it before merging to avoid mistakes.
+Impact : I created a PR for my updated contact section and reviewed it before merging to avoid mistakes.
 
 **4. Concept: Merge Conflicts**
 
-Expectation 🙃 : I thought I wouldn’t experience any conflicts working alone.
+Expectation  : I thought I wouldn’t experience any conflicts working alone.
 
-Reality 😅: I created two branches and edited the same line to test how merge conflicts work.
+Reality : I created two branches and edited the same line to test how merge conflicts work.
 
-Impact 💡: I learned how to resolve conflicts manually and commit the resolved version.
+Impact : I learned how to resolve conflicts manually and commit the resolved version.
 
 ## 4. Screenshots of Key GitHub Features
 
