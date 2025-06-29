@@ -2,7 +2,7 @@
 
 ## 1. Student Details
 
-- **Full Name**: Gituka Kelly Njeri
+- **Full Name**: Merge Test
 - **Admission Number**: 152133
 - **GitHub Username**: @GitukaKelly
 - **Email**: kelly.gituka@strathmore.edu
