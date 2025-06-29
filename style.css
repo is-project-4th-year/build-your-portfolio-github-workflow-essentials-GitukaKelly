@@ -599,7 +599,7 @@ body {
     flex: 0 0 calc(33.333% - 2rem); /* 3 items per row with gap */
   }
 }
-/* Toggle Button Styling */
+
 .theme-toggle {
   background: none;
   border: none;
@@ -636,7 +636,7 @@ body.dark .about-intro,
 body.dark .contact-text {
   color: #f9f8f8;
 }
-/* WHO AM I */
+
 body.dark .about-section {
   background-color: #1a1a1a;
 }
@@ -645,7 +645,6 @@ body.dark .about-intro {
   color: #e0e0e0;
 }
 
-/* CERTIFICATES & ACHIEVEMENTS */
 body.dark .certificates-section {
   background-color: #1a1a1a;
   color: #f0f0f0;
