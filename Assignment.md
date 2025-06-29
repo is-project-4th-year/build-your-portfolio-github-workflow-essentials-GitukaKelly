@@ -82,3 +82,7 @@ Here's a screenshot of a pull request I made to merge my past projects branch to
 While merging two branches, I intentionally created a merge conflict in the assignment.md file. I resolved the conflict manually in VS Code and committed the changes.
 
 ![Merge Conflict ](assets/mergeconflict.png)
+
+Below is a photo of the resolved conflict
+
+![Resolved Conflict ](assets/resolvedconflict.png)
