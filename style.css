@@ -511,4 +511,45 @@ body {
 .project-link:hover {
   background-color: #0056b3;
 }
+.contact-section {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #f0f4f8;
+}
+
+.contact-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.contact-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}
+
+/* 🔻 Footer Styling */
+.footer {
+  background-color: #111;
+  color: #ddd;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
 
